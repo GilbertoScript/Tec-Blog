@@ -1,0 +1,127 @@
+/* *****Limpar formatações padrão***** */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f5f6fa;
+	font-size: 1em;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* *****Layout***** */
+
+/* *****Cabeçalho***** */
+#area-cabecalho {
+	background-color: #f1c40f;
+	text-align: center;
+	padding: 15px;
+}
+
+#area-logo {
+	padding: 10px;
+}
+
+#navbar {
+	padding: 10px;
+}
+/* *****Fim do cabeçalho**** */
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+#rodape {
+	clear: both;
+	background: lightgrey;
+	padding: 15px;
+	text-align: center;
+	border-radius: 30px;
+}
+
+.postagens {
+	background: white;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+}
+
+.postagem-lateral {
+	font-size: 0.9em;
+	padding: 5px;
+	border-bottom: 1px solid #84a98c;
+	padding-top: 1px;
+}
+
+/* *****Formatações do Menu***** */
+
+a {
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 8px 12px;
+}
+
+a:link, a:visited {
+	color: #f1c40f;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#navbar a:link, #navbar a:visited {
+	color: #FFF;
+}
+
+#navbar a:hover {
+	color: #f1c40f;
+	background: #FFF;
+	text-decoration: none;
+}
+
+/* *****Formatações gerais***** */
+
+h1 {
+	color: #7f8c8d;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #f1c40f;
+}
+
+h3 {
+	background: #CCC;
+	color: #565656;
+	padding: 5px;
+}
+
+.white-for-blog {
+	color: white;
+}
+.post-data {
+	display: block;
+	font-size: 0.8em;
+	border-bottom: 1px solid #84a98c;
+	margin-top: 2px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
